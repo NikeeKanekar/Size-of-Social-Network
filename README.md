@@ -31,14 +31,14 @@ ASSUMPTION
 
 USAGE
 
--Create a Java Project in any IDE(Ex: NetBeans, Eclipse)
--Create a package(Its recommended not to use the default package)
--Create a Java file and write the code
--Run the Java file
+- Create a Java Project in any IDE(Ex: NetBeans, Eclipse)
+- Create a package(Its recommended not to use the default package)
+- Create a Java file and write the code
+ -Run the Java file
 
 Example:
 
-Dictionary : very_small_test_dictionary.txt
-Input  : "LISTY"
-Output : The size of social network for LISTY is : 5
+- Dictionary : very_small_test_dictionary.txt
+- Input  : "LISTY"
+- Output : The size of social network for LISTY is : 5
 
