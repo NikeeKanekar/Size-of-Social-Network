@@ -45,5 +45,6 @@ Example:
 Increasing Efficiency of Code
 
 - Stored list of words from the dictionary according to the word length in a HashMap
+- A word with length i can have its friend in with i-1,i or i+1 word length list
 - The friends of a word are removed from the list when generated, instead of removing them after processing
 
