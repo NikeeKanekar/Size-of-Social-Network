@@ -23,3 +23,22 @@ As before, HI is in its own social network.
 1 + 1 + (1+ 1) + (1 +  1) +  1    = 7
 HI  HE  SHE HER  HEAR HERE   THERE
 
+ASSUMPTION
+
+- If the word is present in its own social network, the total size is number of friends plus 1(For the word itself).
+- If the word is not present in its own social network, the total size is number of friend.
+- In case of invalid input, the program will terminate with an error message.
+
+USAGE
+
+-Create a Java Project in any IDE(Ex: NetBeans, Eclipse)
+-Create a package(Its recommended not to use the default package)
+-Create a Java file and write the code
+-Run the Java file
+
+Example:
+
+Dictionary : very_small_test_dictionary.txt
+Input  : "LISTY"
+Output : The size of social network for LISTY is : 5
+
