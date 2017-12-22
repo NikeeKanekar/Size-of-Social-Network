@@ -1,0 +1,57 @@
+**************************************************************************************************************
+This document contains the test case coverage 
+
+Test folder contains the following :
+	-Dictionary file
+	
+**************************************************************************************************************
+Assumption
+**************************************************************************************************************
+
+- If the word is present in its own social network, the total size is number of friends plus 1(For the word itself).
+- If the word is not present in its own social network, the total size is number of friends.
+- In case of invalid input, the program will terminate with an error message.
+
+**************************************************************************************************************		  
+Increasing Efficiency of Code
+**************************************************************************************************************
+
+- Stored list of words from the dictionary according to the word length in a HashMap
+- A word with length i can have its friend in with i-1,i or i+1 word length list
+- The friends of a word are removed from the list when generated, instead of removing them after processing
+
+**************************************************************************************************************
+Test case Coverage
+**************************************************************************************************************
+
+	Case 1 : The input is Space or Enter
+	
+			Input  : "" or " "
+			Dictionary : dictionary.txt
+			Output : The input is invalid		
+		
+	Case 3 : The input is a multiple word string
+
+			Input  : "LIS TY" or "LI STY"
+			Dictionary : dictionary.txt
+			Output : The input is invalid
+		
+	Case 3 : The input word contains white spaces
+	
+			Input  : "  LISTY" or "LISTY  " or "   LISTY  "
+			Dictionary : dictionary.txt
+			Output : The size of social network for LISTY is : 51710
+
+	Case 4 : The dictionary is empty
+	
+			Input  : "LISTY"
+			Dictionary : dictionary.txt(Empty file)
+			Output : The dictionary is empty
+			
+	Case 5 : Valid Input
+			
+			Input  : "LISTY"
+			Dictionary : dictionary.txt
+			Output : The size of social network for LISTY is : 51710
+
+
