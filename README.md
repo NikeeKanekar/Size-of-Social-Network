@@ -42,3 +42,8 @@ Example:
 - Input  : "LISTY"
 - Output : The size of social network for LISTY is : 5
 
+Increasing Efficiency of Code
+
+- Stored list of words from the dictionary according to the word length in a HashMap
+- The friends of a word are removed from the list when generated, instead of removing them after processing
+
